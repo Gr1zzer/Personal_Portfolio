@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="WIP.css" />
+    <title>Button Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="http://placekitten.com/300/200" alt="" />
+      <nav>
+        <ul>
+          <li><a href="/Tamriel.html" class="tamerial">Go To Home</a></li>
+        </ul>
+      </nav>
+      <p class="instruction">
+        This is not completed so here is a funny color slider and a cat picture!
+        And fair warning be careful you can cause bright flashing lights
+        (Epilepsy Warning Possibility)
+      </p>
+      <div class="wrapper">
+        <label>Red:</label>
+        <input
+          type="range"
+          id="range_red"
+          value="0"
+          min="0"
+          max="255"
+          oninput="onColors()"
+        />
+      </div>
+      <br />
+      <div class="wrapper">
+        <label>Green:</label>
+        <input
+          type="range"
+          id="range_green"
+          value="0"
+          min="0"
+          max="255"
+          oninput="onColors()"
+        />
+      </div>
+
+      <br />
+      <div class="wrapper">
+        <label>Blue:</label>
+        <input
+          type="range"
+          id="range_blue"
+          value="0"
+          min="0"
+          max="255"
+          oninput="onColors()"
+        />
+      </div>
+      <br />
+      <button class="large red button" onclick="btnPressed()">Button</button>
+      <p>Clicks: <a id="clicks"></a></p>
+    </div>
+    <script src="WIP.js"></script>
+  </body>
+</html>

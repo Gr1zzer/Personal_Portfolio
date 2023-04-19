@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+}
+.container {
+  background-color: #878585;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  padding: 20px;
+  box-shadow: 20px 20px 30px rgba(255, 255, 255, 0.2);
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #142b37;
+  border-radius: 5px;
+}
+.button {
+  padding: 10px;
+  display: inline-block;
+}
+.wrapper {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+input[type="range"] {
+  display: inline-block;
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 25pxxs;
+}
+nav {
+  padding: 10px;
+  position: sticky;
+  top: 60px;
+}
+
+nav ul {
+  padding: 10px;
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav li {
+  width: 25%;
+  display: inline-block;
+  font-size: 15px;
+}
